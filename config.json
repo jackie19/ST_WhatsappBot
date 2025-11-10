@@ -1,0 +1,44 @@
+{
+  "prefix": "!",
+  "dmAdmin": ["8801xxxxxxxxx"],
+  "gcAdminUid": ["xxxxxxxxxxxxxxx@lid"],
+  "adminName": "ST | Sheikh Tamim",
+  "botName": "STW | BOT",
+  "prefixUse": true,
+  "onlyAdminMode": false,
+  "showBanner": true,
+  "skipCmds": [],
+  "skipEvents": [],
+  "database": {
+    "type": "json",
+    "mongodb": {
+      "name": "",
+      "url": ""
+    }
+  },
+  "phoneNumber": "8801xxxxxxxxx",
+  "timezone": "Asia/Dhaka",
+  "reactUnsend": {
+    "enabled": true,
+    "emoji": "👍"
+  },
+  "dashboard": {
+    "enabled": true,
+    "port": 5000,
+    "adminPassword": "admin123",
+    "requireAuth": true
+  },
+  "serverUptime": {
+    "enabled": true,
+    "port": 5000,
+    "socket": {
+      "channelName": "uptime",
+      "verifyToken": "stgbot"
+    }
+  },
+  "autoUptime": {
+    "enable": false,
+    "url": "",
+    "timeInterval": 180
+  }
+}
