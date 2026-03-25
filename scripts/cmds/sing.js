@@ -5,8 +5,8 @@ const fs = require('fs');
 module.exports = {
   config: {
     name: "sing",
-    aliases: ["music"],
-    version: "1.0.0",
+    aliases: [],
+    version: "1.0.1",
     author: "ST | Sheikh Tamim",
     countDown: 5,
     role: 0,

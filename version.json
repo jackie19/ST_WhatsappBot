@@ -8,5 +8,30 @@
     "imageUrl": [],
     "videoUrl": [],
     "audioUrl": []
+  },
+  {
+    "version": "1.0.1",
+    "note": "fixes issue for login and added some cmds",
+    "files": {
+      "bot/handler/handlerEvents.js": "fixed issue",
+      "bot/login/login.js": "fixed issue",
+      "scripts/cmds/cai.js": "added",
+      "scripts/cmds/cpanel.js": "added",
+      "scripts/cmds/flux.js": "added",
+      "scripts/cmds/imgur.js": "added",
+      "scripts/cmds/midjourney.js": "added",
+      "scripts/cmds/mjp.js": "added",
+      "scripts/cmds/music.js": "added",
+      "scripts/cmds/nanobanana.js": "added",
+      "scripts/cmds/niji.js": "added",
+      "scripts/cmds/raw.js": "added",
+      "scripts/cmds/sing.js": "added"
+    },
+    "ST.js": "fixes issue",
+    "utils.js": "fix issues",
+    "deleteFiles": {
+      "scripts/cmds/mj.js": "file has remove cause useless"
+    },
+    "reinstallDependencies": true
   }
 ]
